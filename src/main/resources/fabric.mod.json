@@ -9,9 +9,9 @@
     "Amuadutua"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "",
-    "issues": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/cooler-shields",
+    "sources": "https://github.com/Amuadutua/Cooler-Shields-1.18",
+    "issues": "https://github.com/Amuadutua/Cooler-Shields-1.18/issues"
   },
 
   "license": "GPLv3",
