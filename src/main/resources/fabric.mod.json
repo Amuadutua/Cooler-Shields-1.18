@@ -14,7 +14,7 @@
     "issues": ""
   },
 
-  "license": "CC0-1.0",
+  "license": "GPLv3",
   "icon": "assets/coolershields/icon.png",
 
   "environment": "*",
