@@ -1,0 +1,15 @@
+{
+  "parent":"fabricshieldlib:item/fabric_banner_shield",
+  "textures":{
+    "shield":"coolershields:item/iron_shield",
+    "particle":"#shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "coolershields:item/iron_banner_shield_blocking"
+    }
+  ]
+}

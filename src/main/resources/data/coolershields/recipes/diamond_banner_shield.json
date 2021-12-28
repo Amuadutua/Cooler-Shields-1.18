@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "aaa",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "examplemod:diamond_banner_shield",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "coolershields",
+  "version": "${version}",
+
+  "name": "Cooler Shields",
+  "description": "This mod adds 5 new shields to minecraft",
+  "authors": [
+    "Amuadutua"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/examplemod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.amuadutua.coolershields.CoolerShields"
+    ],
+    "client": [
+      "net.amuadutua.coolershields.CoolerShieldsClient"
+    ]
+  },
+  "mixins": [
+    "coolershields.mixins.json"
+  ],
+
+  "depends": {
+    "fabricshieldlib": ">=1.4.5-1.18",
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

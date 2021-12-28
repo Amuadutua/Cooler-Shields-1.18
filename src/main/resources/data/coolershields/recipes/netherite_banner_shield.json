@@ -1,0 +1,13 @@
+{
+  "type": "smithing",
+  "base": {
+    "item": "examplemod:diamond_banner_shield"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+
+  "result": {
+    "item": "examplemod:netherite_banner_shield"
+  }
+}
