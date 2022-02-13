@@ -24,15 +24,15 @@ public class CoolerShields implements ModInitializer {
 
 	public static final Item EXAMPLE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(99999).group(ItemGroup.COMBAT), 0, 100, Items.OAK_PLANKS); // FabricShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 
-	public static final Item NETHERITE_BANNER_SHIELD = new NetheriteBannerShield(new FabricItemSettings().maxDamage(3000).group(ItemGroup.COMBAT), 25, 15,Items.NETHERITE_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
+	public static final Item NETHERITE_BANNER_SHIELD = new NetheriteBannerShield(new FabricItemSettings().maxDamage(900).group(ItemGroup.COMBAT), 25, 15,Items.NETHERITE_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 
-	public static final Item DIAMOND_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(2000).group(ItemGroup.COMBAT), 50, 10,Items.DIAMOND); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
+	public static final Item DIAMOND_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(800).group(ItemGroup.COMBAT), 50, 10,Items.DIAMOND); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 
-	public static final Item GOLDEN_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(200).group(ItemGroup.COMBAT), 50, 10,Items.GOLD_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
+	public static final Item GOLDEN_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(112).group(ItemGroup.COMBAT), 50, 10,Items.GOLD_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 
-	public static final Item IRON_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(1000).group(ItemGroup.COMBAT), 100, 6,Items.IRON_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
+	public static final Item IRON_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(500).group(ItemGroup.COMBAT), 100, 6,Items.IRON_INGOT); // FabricBannerShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 
-	public static final Item WOODEN_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(150).group(ItemGroup.COMBAT), 300, 2, Items.OAK_PLANKS);
+	public static final Item WOODEN_BANNER_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(80).group(ItemGroup.COMBAT), 300, 2, Items.OAK_PLANKS);
 
 	@Override
 	public void onInitialize() {
